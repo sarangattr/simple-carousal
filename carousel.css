@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgb(150,100,250 ,.1); 
+    /* background-image: url('./images/live1.jpeg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-shadow: -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000,;
+    line-height: 4rem;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rightBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+
+#leftBtn {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
